@@ -6,8 +6,11 @@ import com.ssm.model.User;
 
 public interface UserService {
 
-	List<User> searchAllUser();
-	User searchUserById(Integer id);
+	public	List<User> searchAllUser();
+	public	User searchUserById(Integer id);
+	public void createUser(User user);
+	
+	
 	
 
 }

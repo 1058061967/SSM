@@ -24,6 +24,8 @@ public interface UserMapper {
       
     public int countUser();  
     
+    public void insertUser(User user);
+    
     
     
 }
